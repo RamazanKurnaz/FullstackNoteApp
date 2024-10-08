@@ -64,7 +64,7 @@ const Color = ({ color }) => {
                 onClick={handleClick}
                 style={{ cursor: "pointer" }}
             >
-                <img src="src\assets\Colorpallete.png" alt="Color Picker Icon" />
+                <img src="src/assets/Colorpallete.png" alt="Color Picker Icon" />
             </div>
             {displayColorPicker ? (
                 <div style={{ position: "absolute", zIndex: "2" }}>
