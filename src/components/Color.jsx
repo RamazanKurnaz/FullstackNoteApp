@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { SketchPicker } from "react-color";
 import { NotesContext } from "../context/NotesContext";
 import { db } from "../appwrite/databases";
+import { FaPalette } from "react-icons/fa";
 
 const Color = ({ color }) => {
     const { selectedNote, notes, setNotes } = useContext(NotesContext);
@@ -64,7 +65,8 @@ const Color = ({ color }) => {
                 onClick={handleClick}
                 style={{ cursor: "pointer" }}
             >
-                <img src="src/assets/Colorpallete.png" alt="Color Picker Icon" />
+               
+                <FaPalette />
             </div>
             {displayColorPicker ? (
                 <div style={{ position: "absolute", zIndex: "2" }}>
