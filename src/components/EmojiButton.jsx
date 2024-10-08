@@ -1,4 +1,6 @@
 import React from "react";
+import { IoMoonSharp } from "react-icons/io5";
+import { RiSunFill } from "react-icons/ri";
 
 const EmojiButton = ({ onClick, isWhiteBackground }) => {
     return (
@@ -12,7 +14,7 @@ const EmojiButton = ({ onClick, isWhiteBackground }) => {
                 fontSize: "24px",
             }}
         >
-            {isWhiteBackground ? "🌜" : "🌞"}
+            {isWhiteBackground ? <span style={{ color: '#484E47', fontSize: '24px' }}><IoMoonSharp /></span> : <RiSunFill />}
         </div>
     );
 };

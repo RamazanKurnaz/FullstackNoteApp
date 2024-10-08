@@ -65,8 +65,10 @@ const Color = ({ color }) => {
                 onClick={handleClick}
                 style={{ cursor: "pointer" }}
             >
+               <span style={{ color: '#F9B0FF', fontSize: '24px' }}>
+               <FaPalette />
+             </span>
                
-                <FaPalette />
             </div>
             {displayColorPicker ? (
                 <div style={{ position: "absolute", zIndex: "2" }}>
