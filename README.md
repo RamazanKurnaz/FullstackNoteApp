@@ -2,7 +2,8 @@
 # quickly take notes with the sticky note app
 
 ##### Your notes will not disappear (until you delete them).Take notes flexibly with the draggable feature.
-![live🏄](https://fullstack-note-app.vercel.app/)
+
+[live🏄](https://fullstack-note-app.vercel.app/)
 
 ![Demo](notesmov.gif)
 
